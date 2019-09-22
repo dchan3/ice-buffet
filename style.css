@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+#header {
+  padding: 8px 20px;
+}
+
+p, h1 {
+  margin: 5px 0;
+  font-family: "Comic Sans MS", sans-serif;
+}
+
+p, select, option {
+  font-size: 16pt;
+}
+
+#follow p {
+  font-size: 14pt;
+}
+
+svg {
+  background-color: #C0FFEE;
+  width: 100%;
+  height: fit-content;
+}
+
+#key {
+  display: flex;
+}
+
+#black {
+  background-color: black;
+  color: white;
+  font-weight: 900;
+  padding: 1px 3px;
+  font-family: "Arial Unicode MS", sans-serif;
+}
+
+#red {
+  background-color: red;
+  color: white;
+  font-weight: 900;
+  padding: 1px 3px;
+  font-family: "Arial Unicode MS", sans-serif;
+}
+
+#skyblue {
+  background-color: skyblue;
+  color: black;
+  font-weight: 900;
+  padding: 1px 3px;
+  font-family: "Arial Unicode MS", sans-serif;
+}
+
+#tan {
+  background-color: tan;
+  color: black;
+  font-weight: 900;
+  padding: 1px 3px;
+  font-family: "Arial Unicode MS", sans-serif;
+}
+
+select + p {
+  display: inline-flex;
+}
+
+#mapmap {
+  transition-duration: 0.5s;
+}
+
+#follow {
+  opacity: 0;
+  position: absolute;
+  float: left;
+  display: none;
+  background-color: ghostwhite;
+  border: thin black solid;
+  border-radius: 3px;
+  transition: opacity .25s;
+  padding: 5px;
+}

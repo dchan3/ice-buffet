@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Codename Ice Buffet - Ice 4 Grabz!!! Not.</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <div id="follow">
+      <p><b>Location</b>: <span id="follow__location"></span></p>
+      <p><span id="follow__phase"></span></p>
+      <p><b id="follow__date__label"></b>: <span id="follow__date__value"></span></p>
+      <p><b>Status</b>: <span id="follow__status"></span></p>
+    </div>
+    <div id="header">
+      <h1>Codename Ice Buffet  - Ice 4 Grabz!!! Not.</h1>
+      <div id="key">
+        <p>You can use the filters if you want, or go
+        <a href="https://www.instagram.com/explore/tags/nofilter">#nofilter</a>.
+          Does it look like I care?</p>
+        &nbsp;
+        <p><span id="black">black</span> - not applicable or no data</p>
+        <p>&nbsp;|&nbsp;</p>
+        <p><span id="red">red</span> - Phase 1</p>
+        <p>&nbsp;|&nbsp;</p>
+        <p><span id="skyblue">skyblue</span> - Phase 2</p>
+        <p>&nbsp;|&nbsp;</p>
+        <p><span id="tan">tan</span> - Phase 3</p>
+      </div>
+      <p id="location">
+          Hover over a dot to view its info. Use the "+" and '-' keys to zoom in and out. Click and drag to pan the map.</p>
+      <select id="filter" value="All">
+        <option value="All">All</option>
+      </select>
+      <select id="completed" value="All">
+        <option value="All">Completed or Not</option>
+        <option value="Completed">Completed</option>
+        <option value="Not Completed">Not Completed</option>
+      </select>
+      <select id="recruiting" value="All">
+        <option value="All">All Statuses</option>
+      </select>
+      <p>Points: <span id="count">0</span></p>
+    </div>
+    <script async src="./data-load.js"></script>
+    <script async src="./map-load.js"></script>
+  </body>
+</html>

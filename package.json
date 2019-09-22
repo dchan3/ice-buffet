@@ -1,0 +1,19 @@
+{
+  "name": "ice-buffet",
+  "private": true,
+  "devDependencies": {
+    "csv-parse": "^4.4.6",
+    "d3": "^3.5.17",
+    "d3-zoom": "^1.8.3",
+    "panzoom": "^8.4.0",
+    "papaparse": "^5.1.0",
+    "topojson": "^3.0.2",
+    "topojson-client": "^3.0.1",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "scripts": {
+    "start": "http-server -p 9000",
+    "build": "webpack -w --progress"
+  }
+}
