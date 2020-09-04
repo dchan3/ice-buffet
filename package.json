@@ -6,7 +6,7 @@
     "d3": "^3.5.17",
     "d3-zoom": "^1.8.3",
     "panzoom": "^8.4.0",
-    "papaparse": "^5.1.0",
+    "papaparse": "^5.2.0",
     "topojson": "^3.0.2",
     "topojson-client": "^3.0.1",
     "webpack": "^4.40.2",
