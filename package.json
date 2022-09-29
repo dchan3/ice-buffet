@@ -4,7 +4,7 @@
   "devDependencies": {
     "csv-parse": "^4.4.6",
     "d3": "^3.5.17",
-    "d3-zoom": "^1.8.3",
+    "d3-zoom": "^3.0.0",
     "panzoom": "^8.4.0",
     "papaparse": "^5.1.0",
     "topojson": "^3.0.2",
